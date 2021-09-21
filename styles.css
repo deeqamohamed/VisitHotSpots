@@ -1,0 +1,27 @@
+
+.previous, .next {
+    position: absolute;
+    margin: 20px;
+    color:grey;
+    margin-top: -280px;
+}
+
+.next {
+    right: 0;
+}
+
+.slide1 {
+    margin: 20px;
+    margin-right: 20px;
+    width: 1380px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.slide2{
+    margin: 20px;
+    margin-right: 20px;
+    width: 1380px;
+    height: 500px;
+    object-fit: cover;
+}

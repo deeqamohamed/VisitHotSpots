@@ -1,0 +1,351 @@
+*{
+    margin: 1px;
+    padding: 1px;
+
+    
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.h1{
+    font-family:'Hind Siliguri', sans-serif;
+
+    word-spacing: 5px;
+    color: #009688;
+}
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #ffffff;
+    
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-family: 'Hind Siliguri', sans-serif;
+    
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:rgb(8, 8, 8);
+    text-transform: uppercase;
+    float:right;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+a:hover {
+    font-weight: bold;
+}
+p {
+    font-family: 'Hind', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image{
+    position: relative;
+    text-align: center;
+    margin-top: 70px;
+}
+.img-devon {
+    position: relative;
+    text-align: center;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: 'Lobster', 'cursive';
+    color: white;
+  }
+
+.introduction {
+    margin: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+    word-spacing: 5px;
+    font-size: 18px;
+
+}
+
+.food-drinks-accomodation h1 {
+    font-family:'Hind Siliguri', sans-serif;
+
+    word-spacing: 5px;
+    color: #009688;
+
+}
+.food-drinks{
+    width: 600px;
+    height: 300 px;
+    padding: 20px 40px 20px 40px;
+    margin: 10px;
+    font-family: 'Hind', sans-serif;
+    background-color: #E8F8F5;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.img-food{
+    width: 100%;
+    margin: auto;
+}
+.accomodation h1 {
+    font-family:'Hind Siliguri', sans-serif;
+
+    word-spacing: 5px;
+    color: #009688;
+    
+
+}
+.accomodation{
+    width: 600px;
+    height: 300 px;
+    padding: 20px 40px 20px 40px;
+    margin: 10px;
+    font-family: 'Hind', sans-serif;
+    background-color: #EBDEF0;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.img-accomodation{
+    width: 100%;
+    margin: auto;
+}
+
+.activities{
+    width: 600px;
+    height: 300 px;
+    padding: 20px 40px 20px 40px;
+    margin: 10px;
+    font-family: 'Hind', sans-serif;
+    background-color: #FCF3CF;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.img-activities{
+    width: 100%;
+    margin: auto;
+}
+
+
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  a {
+      color:#009688;
+      text-decoration: none;
+      
+  }
+.liverpool-banner{
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: 'Lobster', 'cursive';
+    color: white;
+  }
+
+.outer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.liverpool-intro {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.liverpool-flex-container {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'Hind', sans-serif;
+  }
+
+  .row-food {
+      width: 600px;
+      height: 300 px;
+      padding: 20px 40px 20px 40px;
+      margin: auto;
+      width: 50%;
+      font-family: 'Hind', sans-serif;
+      background-color: #E8F8F5;
+      font-size: 18px;
+      
+  }
+.row-food h1{
+  font-family:'Hind Siliguri', sans-serif;
+
+  word-spacing: 5px;
+  color: #009688;
+}
+
+  .row-accom {
+    width: 600px;
+    height: 300 px;
+    padding: 20px 40px 20px 40px;
+    margin: 10px;
+    font-family: 'Hind', sans-serif;
+    background-color: #EBDEF0;
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+}
+.row-accom h1 {
+    font-family:'Hind Siliguri', sans-serif;
+
+    word-spacing: 5px;
+    color: #009688;
+}
+
+    .row-activ {
+    width: 600px;
+    height: 300 px;
+    padding: 20px 40px 20px 40px;
+    margin: 10px;
+    font-family: 'Hind', sans-serif;
+    background-color: #FCF3CF;
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+}
+.row-activ h1 {
+    font-family:'Hind Siliguri', sans-serif;
+
+    word-spacing: 5px;
+    color: #009688;
+}
+
+
+
+
+    .footer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    align-content: space-between;
+}
+
+.twitter {
+    margin-left:  36%;
+    margin-right:  40px;
+}
+
+.facebook {
+    margin-right:  40px;
+}
+
+.insta {
+    margin-right:  40px;
+}
+
+.pinterest {
+    margin-right:  40px;
+}
+
+.cfg {
+    margin-right:  40px;
+}
+
+.row-deeqa {
+    width: 600px;
+    height: 300 px;
+    padding: 20px 40px 20px 40px;
+    margin-left: 25%;
+    justify-content: center;
+    font-family: 'Hind', sans-serif;
+    background-color: #E8F8F5;
+}
+
+.row-sarah {
+    width: 600px;
+    height: 300 px;
+    padding: 20px 40px 20px 40px;
+    margin-left: 25%;
+    justify-content: center;
+    font-family: 'Hind', sans-serif;
+    background-color: #EBDEF0
+}
+
+.row-cfg {
+    width: 600px;
+    height: 300 px;
+    padding: 20px 40px 20px 40px;
+   margin-left: 25%;
+    justify-content: center;
+    font-family: 'Hind', sans-serif;
+    background-color: #FCF3CF;
+}
+
+.index-intro {
+    font-size: 50px;
+    text-align: center;
+}
